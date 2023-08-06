@@ -1,4 +1,4 @@
-package newSection02;
+package section230806;
 
 /*
  * 변수(Variable)

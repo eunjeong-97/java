@@ -1,4 +1,4 @@
-package newSection02;
+package section230806;
 
 /*
  * 1. 논리형(boolean)
@@ -16,6 +16,9 @@ public class Variable01 {
 		boolean isTrue;
 		isTrue = true;
 		System.out.println("논리형변수에 저장된값" + isTrue);
+		
+		isTrue = false;
+		System.out.println("논리형변수에 변경된값" + isTrue);
 		
 	}
 }
