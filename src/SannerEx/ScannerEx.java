@@ -8,6 +8,7 @@ import java.util.Scanner;
  * 	Scanner 클래스를 사용하면 키보드로 입력한 텍스트, 숫자등
  * 	읽을 수 있다.
  * 
+ * 111
  */
 public class ScannerEx {
 	public static void main(String[] args) {
