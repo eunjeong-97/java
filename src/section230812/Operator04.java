@@ -16,5 +16,15 @@ public class Operator04 {
 		boolean result2 = true || false;
 		System.out.println("true || false → "+result2);
 		
+		boolean result3 = !true;
+		System.out.println("!true → " + result3);
+		
+		// 쇼핑몰 예시
+		String ctgr = "의류";
+		if(ctgr=="의류" || ctgr == "전기전자" || ctgr == "의류") {
+			System.out.println("20%할인행사중");
+		} else {
+			System.out.println("할인미적용상품");
+		}
 	}
 }
