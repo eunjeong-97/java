@@ -1,5 +1,20 @@
 package section230812;
 
+/*
+ * 형변환(cast)
+ * 	1. 업캐스팅(프로모션)
+ * 		- 표현 범위가 더 큰 데이터형으로 변환하기
+ * 		- 자동으로 가능
+ * 		- 데이터 손실이 없다.
+ * 	2. 다운캐스팅(디모션)
+ * 		- 표현 범위가 더 작은 데이터형으로 변환하기
+ * 		- 명시적으로 해야한다.
+ * 		- 데이터 손실이 있을 수 있다.
+ * 
+ * 숫자타입
+ * byte → short → int → longs
+ */
+
 public class Variable07 {
 	public static void main(String[] args)  {
 		
@@ -13,6 +28,7 @@ public class Variable07 {
 	
 		
 		int iInt2 = 130;
+		// 타입캐스팅연산: int→byte로 형변환시도
 		byte iByte2 = (byte)iInt2; // 다운캐스팅: 오버플로우 주의
 		System.out.println("iByte2: " + iByte2); // -126
 		
