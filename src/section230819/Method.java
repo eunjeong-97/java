@@ -60,9 +60,9 @@ public class Method {
 	
 	// ============= 오버로딩 메서드 ============= 
 	public static void printMember(String id, String name, int age, String type) {
-		System.out.println("매개변수 개수를 다르게 한 오버로딩");
+		System.out.println(type);
 	}
 	public static void printMember(int id, String name, int age, String type) {
-		System.out.println("매개변수 타입을 다르게 한 오버로딩");
+		System.out.println(type);
 	}
 }
