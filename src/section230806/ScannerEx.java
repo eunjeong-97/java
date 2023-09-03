@@ -1,4 +1,4 @@
-package SannerEx;
+package section230806;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ import java.util.Scanner;
  * 	Scanner 클래스를 사용하면 키보드로 입력한 텍스트, 숫자등
  * 	읽을 수 있다.
  * 
- * 111
  */
+
 public class ScannerEx {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -28,9 +28,5 @@ public class ScannerEx {
 		System.out.printf("당신의 주소는 %s 입니다.\n", address);
 		System.out.printf("당신의 나이는 %d 입니다.\n", age);
 		System.out.printf("당신의 체중은 %.1fkg 입니다.\n", weight);
-		
-		
 	}
-	
-
 }
