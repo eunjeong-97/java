@@ -6,7 +6,7 @@ package section230820;
  * 객체 초기화륾 목적으로 사용됨
  * 클래스명과 동일하다
  * */
-public class Constructor {
+public class Constructor01 {
 	public static void main(String[] args) {
 		Book book01 = new Book();
 		book01.getInfo();
