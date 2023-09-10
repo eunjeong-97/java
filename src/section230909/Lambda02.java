@@ -13,7 +13,12 @@ import java.util.List;
 
 public class Lambda02 {
 	public static void main(String[] args) {
+		
+		// List.of()로 리스트를 만들게 되면 불변리스트 객체: JAVA9버전부터 지원
 		List<String> names = List.of("Apple", "Banana", "Candy", "Diamond");
+	
+		// names.add("불변리스트 객체이기 때문에 에러가 발생한다");
+	
 		printList(names);
 		System.out.println("============");
 		printWithFP(names);
